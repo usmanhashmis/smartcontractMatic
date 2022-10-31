@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "F:\\bs software engineering\\7th semester\\FYP\\New folder (2)\\smart contract\\contracts\\Booster.sol": {
+      "lastModificationDate": 1667144965409,
+      "contentHash": "3ab733830c641432d06ec8490f8866d6",
+      "sourceName": "contracts/Booster.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Booster"
+      ]
+    },
+    "F:\\bs software engineering\\7th semester\\FYP\\New folder (2)\\smart contract - polygon\\contracts\\Booster.sol": {
+      "lastModificationDate": 1667219490888,
+      "contentHash": "30daadad941b67485b5e4e1c23ae7391",
+      "sourceName": "contracts/Booster.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Booster"
+      ]
+    }
+  }
+}
