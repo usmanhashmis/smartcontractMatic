@@ -1,6 +1,7 @@
 const { expect, assert } = require("chai");
 const { ethers } = require("hardhat");
 
+
 describe("isContractmatic", function () {
   let paymentDeployed;
   let address1;
@@ -12,15 +13,17 @@ describe("isContractmatic", function () {
     booster = await Booster.deploy();
     paymentDeployed = await booster.deployed();
 
-    console.log("Testing, PaymentDeloyed address: ", paymentDeployed.address)
+    console.log("Testing, PaymentDeloyed address: ", paymentDeployed.address);
+    this.timeout(20000);
   });
 
   it("1. Deposit successfully.", async function () {
-    let result = await paymentDeployed.fund({ value: 1});
+   
+    let result = await paymentDeployed.transfer({ value: 1});
     assert.isOk(result, "Fund Failed.");
 
+    
+
   });
-  // it("it should test methods",function(){
-  //   this.timeout(0);
-  // });
+  
 });
