@@ -28,7 +28,7 @@ module.exports = {
       }
     ]
   },
-  networks: {
+  networks: { 
     // ropsten: {
     //   url: process.env.ROPSTEN_URL || "",
     //   accounts:
