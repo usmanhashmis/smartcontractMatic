@@ -63,6 +63,321 @@
         },
         "solcVersion": "0.8.0"
       }
+    },
+    {
+      "Booster": {
+        "src": "contracts\\Booster.sol:4",
+        "version": {
+          "withMetadata": "d1ca3b7521113ac44356e1ec867e3f3511daa6cf55f39b473c5815eb03912ffa",
+          "withoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab",
+          "linkedWithoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transfer()",
+          "withdraw()",
+          "balance()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Booster",
+            "src": "contracts\\Booster.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:5"
+            },
+            {
+              "label": "accountBalances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "Booster": {
+        "src": "contracts\\Booster.sol:4",
+        "version": {
+          "withMetadata": "d1ca3b7521113ac44356e1ec867e3f3511daa6cf55f39b473c5815eb03912ffa",
+          "withoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab",
+          "linkedWithoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transfer()",
+          "withdraw()",
+          "balance()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Booster",
+            "src": "contracts\\Booster.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:5"
+            },
+            {
+              "label": "accountBalances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "Booster": {
+        "src": "contracts\\Booster.sol:4",
+        "version": {
+          "withMetadata": "d1ca3b7521113ac44356e1ec867e3f3511daa6cf55f39b473c5815eb03912ffa",
+          "withoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab",
+          "linkedWithoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transfer()",
+          "withdraw()",
+          "balance()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Booster",
+            "src": "contracts\\Booster.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:5"
+            },
+            {
+              "label": "accountBalances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "Booster": {
+        "src": "contracts\\Booster.sol:4",
+        "version": {
+          "withMetadata": "d1ca3b7521113ac44356e1ec867e3f3511daa6cf55f39b473c5815eb03912ffa",
+          "withoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab",
+          "linkedWithoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transfer()",
+          "withdraw()",
+          "balance()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Booster",
+            "src": "contracts\\Booster.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:5"
+            },
+            {
+              "label": "accountBalances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "Booster": {
+        "src": "contracts\\Booster.sol:4",
+        "version": {
+          "withMetadata": "d1ca3b7521113ac44356e1ec867e3f3511daa6cf55f39b473c5815eb03912ffa",
+          "withoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab",
+          "linkedWithoutMetadata": "19f0364b49b27a2c1a957e2b129254585cfbf029183bbec9f95bb8b382bdfeab"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transfer()",
+          "withdraw()",
+          "balance()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Booster",
+            "src": "contracts\\Booster.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:5"
+            },
+            {
+              "label": "accountBalances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Booster",
+              "src": "contracts\\Booster.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
     }
   ]
 }
