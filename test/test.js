@@ -16,7 +16,7 @@ describe("isContractmatic", function () {
   });
 
   it("1. Deposit successfully.", async function () {
-    let result = await paymentDeployed.fund({ value: 1});
+    let result = await paymentDeployed.transfer({ value: 1});
     assert.isOk(result, "Fund Failed.");
 
   });

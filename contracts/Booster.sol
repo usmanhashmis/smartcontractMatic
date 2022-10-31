@@ -18,7 +18,7 @@ modifier onlyOwner(){
   //  function deposit() external payable {
   //   }
 
-  function fund() external payable{
+  function transfer() external payable{
     require (msg.value > 0, "Empty transact");
     //payable(address(this)).transfer(msg.value);
     accountBalances[msg.sender]=msg.value;
