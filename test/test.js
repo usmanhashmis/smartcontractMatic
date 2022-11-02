@@ -8,13 +8,13 @@ describe("isContractmatic", function () {
   let booster;
 
   beforeEach(async function () {
-    const Booster = await hre.ethers.getContractFactory("Booster");
+    const Boostermatic = await hre.ethers.getContractFactory("Boostermatic");
     [address1] = await ethers.getSigners();
-    booster = await Booster.deploy();
+    booster = await Boostermatic.deploy();
     paymentDeployed = await booster.deployed();
 
     console.log("Testing, PaymentDeloyed address: ", paymentDeployed.address);
-    this.timeout(20000);
+   // this.timeout(10000);
   });
 
   it("1. Deposit successfully.", async function () {

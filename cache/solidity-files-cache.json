@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "F:\\bs software engineering\\7th semester\\FYP\\New folder (2)\\smart contract - polygon\\contracts\\Booster.sol": {
-      "lastModificationDate": 1667231700075,
-      "contentHash": "7d13a2af7d19263f26c26a445399c4fc",
-      "sourceName": "contracts/Booster.sol",
+    "F:\\bs software engineering\\7th semester\\FYP\\New folder (2)\\smart contract - polygon\\contracts\\Boostermatic.sol": {
+      "lastModificationDate": 1667397432541,
+      "contentHash": "2f9414ce6b0a3f082ce2308f05f4cb9b",
+      "sourceName": "contracts/Boostermatic.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
@@ -34,7 +34,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Booster"
+        "Boostermatic"
       ]
     }
   }
